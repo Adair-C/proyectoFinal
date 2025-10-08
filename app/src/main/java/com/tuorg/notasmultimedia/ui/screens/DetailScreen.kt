@@ -36,9 +36,9 @@ fun DetailScreen(nav: NavController, id: String) {
 
             Text("Adjuntos (miniaturas simuladas)")
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                AssistChip(onClick = { }, label = { Text("🖼 img") })
-                AssistChip(onClick = { }, label = { Text("▶ vid") })
-                AssistChip(onClick = { }, label = { Text("🎙 aud") })
+                AssistChip(onClick = { }, label = { Text(" img") })
+                AssistChip(onClick = { }, label = { Text(" vid") })
+                AssistChip(onClick = { }, label = { Text(" aud") })
             }
         }
     }

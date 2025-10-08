@@ -17,7 +17,7 @@ data class NoteItem(
     val description: String,
     val type: ItemType,
     val createdAt: LocalDateTime,
-    val dueAt: LocalDateTime? = null,      // solo si TASK
+    val dueAt: LocalDateTime? = null,
     val reminders: List<LocalDateTime> = emptyList(),
     val attachments: List<Attachment> = emptyList()
 )

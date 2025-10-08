@@ -10,8 +10,8 @@ import com.tuorg.notasmultimedia.ui.screens.HomeScreen
 
 object Routes {
     const val HOME = "home"
-    const val EDIT = "edit"           // crear/editar
-    const val DETAIL = "detail/{id}"  // ver detalle
+    const val EDIT = "edit"
+    const val DETAIL = "detail/{id}"
 }
 
 @Composable
